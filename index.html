@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Animation Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Javascript Link -->
+    <script src="index.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Nav -->
+    <header id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white p-3 fixed-top">
+            <div class="container-fluid fs-5">
+              <a class="navbar-brand fs-3 text-dark" href="#" ><span class="text-danger">T</span>ravel_<span class="text-danger">C</span>ompany</a>
+              <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item text-light">
+                    <a class="nav-link text-dark" href="#book">Book</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#rooms">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#packages">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#about us">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button type="button" class="btn btn-outline-danger">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+      <!-- Img Section -->
+    <img src="https://wallpaperswide.com/download/travel_the_world_3-wallpaper-3840x2160.jpg" class="img-fluid " alt="..." data-aos="fade-up" data-aos-offset="200">
+
+     
+    <!-- Book Section -->
+    <section class="book bg-light" id="book">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="py-4"><Span class="text-danger">T</Span>ICKET <span class="text-danger">B</span>OOK</h1>
+         
+        </div>
+      </div>
+
+      <div class="row  mx-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 " >
+          <img src="https://e0.pxfuel.com/wallpapers/748/1013/desktop-wallpaper-travel-earth-travel.jpg" alt="" class="img-fluid thumbnail my-3 rounded" data-aos="fade-right" data-aos-offset="200">
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 text-end mt-2" >
+          <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Where To">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Where From">
+            </div>
+            <div class="mb-3">
+              <input type="date" class="form-control"id="date"  placeholder="Where To">
+              </div>
+          <div class="mb-3">
+          <textarea class="form-control" rows="10" placeholder="Enter Your Name and Details"></textarea>
+          
+          </div>
+          <div class="button text-start py-3"><button type="button" class="btn btn-danger btn-lg ">Book Now</button></div>
+          </div>
+        </section>
+          <!-- Package Section -->
+        <section class="package " id="packages">
+          <div class="container text-center my-5">
+            <h1 class="p-5"><span class="text-danger">P</span>ACKAGES</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col" data-aos="fade-right" data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://c4.wallpaperflare.com/wallpaper/1000/443/614/cloud-architecture-city-thames-wallpaper-preview.jpg" class="card-img-top" alt="..." >
+                  <div class="card-body">
+                    <h5 class="card-title">LONDON</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cumque!</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="Booking.html" class="btn btn-danger" role="button" data-bs-toggle="button" onclick="clickk()">BOOK NOW</a>
+                    <script>
+                      
+                      </script>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="fade-up" data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://wallpapers.com/images/featured/united-kingdom-boi0kwkehltijrdu.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">UNITED KINGDOM</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, nemo!</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button" onclick="clickk()">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="fade-left" data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://images2.alphacoders.com/546/546391.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">FRANCE</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, error!</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button" onclick="clickk()">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+          
+
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col" data-aos="fade-right" data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://wallpapers.com/images/featured/india-4axuqbnq0u647e8o.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">INDIA</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, tempore.</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button" onclick="clickk()">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="fade-up" data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://images2.alphacoders.com/865/865812.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">CHINA</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatem.</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button" onclick="clickk()">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="fade-left" data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://e0.pxfuel.com/wallpapers/281/716/desktop-wallpaper-asakusa-kannon-temple-tokyo-japan-in-the-resolution.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">JAPAN</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nam?</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button" onclick="clickk()">BOOK NOW</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+
+          <!-- Service Section -->
+
+          <section class="book bg-light" id="services">
+            <div class="container">
+              <div class="text-center">
+                <h1 class="p-5 "><Span class="text-danger">S</Span>ERVICES</h1>
+                <div class="row  mx-5">
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col" data-aos="flip-left"data-aos-offset="300" >
+                      <div class="card h-100">
+                        <img src="https://www.iconpacks.net/icons/2/free-hotel-icon-1880-thumb.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">AFFORDABLE HOTEL</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, temporibus.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col"data-aos="flip-up"data-aos-offset="300">
+                      <div class="card h-100">
+                        <img src=https://img.freepik.com/premium-vector/fast-food-black-icon-silhouette-fastfood-burger-soda-soft-drink-beverage-pictogram-graphic_101884-2009.jpg class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">FOOD & DRINK</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, molestias!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col" data-aos="flip-right"data-aos-offset="300">
+                      <div class="card h-100">
+                        <img src="https://png.pngtree.com/png-vector/20220530/ourmid/pngtree-danger-safety-first-sign-on-white-background-png-image_4761174.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">SAFTEY GUIDE</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+              </div>
+            </div>
+        </div>
+     
+
+        <div class="container">
+          <div class="text-center">
+           <div class="row  mx-5">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col" data-aos="flip-left"data-aos-offset="200">
+                  <div class="card h-100">
+                    <img src="https://png.pngtree.com/png-clipart/20230802/original/pngtree-red-globe-world-environment-earth-vector-picture-image_9312019.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title p-4">ALL OVER THE WORLD</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, temporibus.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col" data-aos="flip-up"data-aos-offset="200">
+                  <div class="card h-100">
+                    <img src=https://illustoon.com/photo/447.png class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title p-4">FASTEST TRAVEL</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, molestias!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col" data-aos="flip-right"data-aos-offset="200">
+                  <div class="card h-100">
+                    <img src="https://static.vecteezy.com/system/resources/previews/022/791/855/non_2x/3d-icon-of-climbing-free-png.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title p-4">ADVENTURES</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+          </div>
+        </div>
+    </div>
+       </section>
+    <!-- Hotel section -->
+       <section>
+        <div class="container" id="rooms">
+          <div class="text-center">
+            <h1 class="p-5 "><Span class="text-danger">H</Span>OTELS</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col" data-aos="zoom-in-up"  data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://c4.wallpaperflare.com/wallpaper/359/481/80/luxury-hotel-room-bedroom-furniture-set-wallpaper-preview.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title p-3">Resorts Room</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iure.</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in-up"  data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://e0.pxfuel.com/wallpapers/632/505/desktop-wallpaper-hotel-management-hotels.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title p-3">Creative Room</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, atque?</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in-up"  data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://c4.wallpaperflare.com/wallpaper/39/785/145/presidential-suite-vacation-resort-tourism-wallpaper-preview.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title  p-3">Lodge Room</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, porro.</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Book Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col" data-aos="zoom-in-down"  data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://img.freepik.com/premium-photo/bedroom-with-view-ocean-beautiful-sunset_954226-36984.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title  p-3">Luxury Rooms</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, expedita..</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in-down"  data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title  p-3">King Room</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aspernatur.</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in-down"  data-aos-offset="200">
+                <div class="card h-100">
+                  <img src="https://hotelchantelle.com/wp-content/uploads/2023/09/3964.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title  p-3">Queen Room</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, qui?</p>
+                    <p class="fs-4"><span class="text-danger">P</span>RICE: $500</p>
+                    <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">Book Now</a>
+                  </div>
+                </div>
+              </div>
+             </div>
+  </section>
+
+  <!-- About Us -->
+<section class="bg-light" id="about us">
+  <div class="container" >
+    <div class="text-center">
+      <h1 class="p-5 "><Span class="text-danger">A</Span>BOUT <span class="text-danger">U</span>S</h1>
+      <div class="card mb-3" style="width: 100%;">
+        <div class="row g-5">
+          <div class="col-md-6">
+            <img src="https://www.totalntertainment.com/wp-content/uploads/ARCO-3.jpg" class="img-fluid rounded-start p-3" alt="..."  data-aos="zoom-in-right"  data-aos-offset="200">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h1 class="card-title m-3">How Travel Agency Work</h1>
+              <p class="card-text my-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis dolorem, numquam earum at nam beatae voluptate natus consectetur facere, saepe cupiditate ut exercitationem deserunt, facilis quam perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias asperiores nulla rerum, nihil eveniet perferendis sint illum accusamus officiis aliquam nam.</p>
+              <div class="button text-start py-3"><button type="button" class="btn btn-danger btn-lg " onclick="">Read more..</button> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<section class="bg-light">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="p-3"><Span class="text-danger">T</Span>RAVEL <span class="text-danger">C</span>OMPANY</h1>
+      <div class="card-body">
+
+          <h5 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, facere?</h5>
+          <p>DESIGNED BY <a href="HOME">MAHI DUBEY</a></p>
+          <span>&copy;COPYRIGHT TRAVEL COMPANY. ALL RIGHTS RESERVED</span>
+        
+      </div>
+  </div>
+  </div>
+</section>
+
+
+
+
+   <!-- Bootstrap Js Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- Animation Js Link -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  </body>
+</html>
